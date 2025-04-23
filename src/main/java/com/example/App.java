@@ -12,8 +12,8 @@ public class App
             port = Integer.parseInt(args[0]);
         }
 
-        new DiscardServer(port).run();
+        //new DiscardServer(port).run();
 
-        //new TimeServerHandler();
+        new TimeServer(port).run();
     }
 }
